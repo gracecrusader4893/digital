@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<title>Digital Pace - Modern System Flow &amp; Performance</title>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="description"/>
+<link href="https://Digital Pace/index.html" rel="canonical"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="Digital Pace - Modern System Flow &amp; Performance" property="og:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." property="og:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace+Modern+System+Flow" property="og:image"/>
+<meta content="https://Digital Pace" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Digital Pace - Modern System Flow &amp; Performance" name="twitter:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="twitter:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace+Modern+System+Flow" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Digital Pace",
+  "url": "https://Digital Pace",
+  "description": "Digital Pace: Understanding Modern System Flow",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://Digital Pace/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Momentum Insights Group",
+  "url": "https://Digital Pace",
+  "logo": "https://Digital Pace/logo.png",
+  "description": "Digital Pace: Understanding Modern System Flow",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1400 Broadway, Suite 3600",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressCountry": "United States"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(212) 555-1212",
+    "contactType": "customer service",
+    "email": "contact@digitalpace.com"
+  }
+}
+</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<style>
+:root {
+  --color-white: #FFFFFF;
+  --color-soft-gray: #F8F9FA;
+  --color-light-slate: #E9ECEF;
+  --color-medium-gray: #ADB5BD;
+  --color-charcoal: #495057;
+  --color-deep-slate: #212529;
+  --color-cool-blue: #4A90E2;
+  --color-soft-cyan: #5DADE2;
+  --color-pale-blue: #EBF5FB;
+  --color-success-green: #52C41A;
+  --color-muted-amber: #FAAD14;
+  --color-soft-red: #F5222D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-deep-slate);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--color-deep-slate);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: var(--color-cool-blue);
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+
+a:hover {
+  color: var(--color-soft-cyan);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-cool-blue);
+  color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.btn-primary:hover {
+  background: var(--color-soft-cyan);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+  transform: translateY(-1px);
+  color: var(--color-white);
+}
+
+.btn-primary:active {
+  background: #3A7BC8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(0);
+}
+
+.card {
+  background: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+}
+</style>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+<div id="cookie-popup" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%); backdrop-filter: blur(10px); border-top: 1px solid rgba(0, 0, 0, 0.06); box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.08); z-index: 9999; padding: 24px; animation: slideUp 400ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<i class="fas fa-cookie-bite" style="color: #4A90E2; font-size: 24px;"></i>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #212529; letter-spacing: 0;">Cookie Consent</h3>
+</div>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #495057; letter-spacing: 0.01em;">We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and personalize content. Your IP address will be anonymized for privacy protection. By clicking "Accept", you consent to our use of cookies. You can manage your preferences at any time through our<a href="privacy-policy.html" style="color: #4A90E2; text-decoration: none; font-weight: 500; transition: color 200ms ease-in-out;">Privacy Policy</a>.
+            </p>
+<p style="margin: 0; font-size: 12px; color: #6C757D; letter-spacing: 0.02em;">
+<i class="fas fa-shield-alt" style="margin-right: 6px;"></i>GDPR Compliant | Data Protection Enabled</p>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<button id="cookie-accept" style="background: linear-gradient(180deg, #5DADE2 0%, #4A90E2 100%); color: #FFFFFF; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); letter-spacing: 0.01em;">
+<i class="fas fa-check" style="margin-right: 8px;"></i>Accept Cookies
+            </button>
+<button id="cookie-decline" style="background: transparent; color: #4A90E2; border: 2px solid #4A90E2; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); letter-spacing: 0.01em;">
+<i class="fas fa-times" style="margin-right: 8px;"></i>Decline
+            </button>
+</div>
+</div>
+</div>
+<style>
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#cookie-accept:hover {
+    background: linear-gradient(180deg, #6BB8E8 0%, #5DADE2 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+    transform: translateY(-1px);
+}
+
+#cookie-accept:active {
+    background: linear-gradient(180deg, #3A7BC8 0%, #3A7BC8 100%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(0);
+}
+
+#cookie-decline:hover {
+    background: rgba(74, 144, 226, 0.08);
+    border-color: #5DADE2;
+    color: #5DADE2;
+}
+
+#cookie-decline:active {
+    background: rgba(74, 144, 226, 0.15);
+    border-color: #3A7BC8;
+    color: #3A7BC8;
+}
+
+@media (max-width: 768px) {
+    #cookie-popup {
+        padding: 16px;
+    }
+    
+    #cookie-popup > div {
+        gap: 12px;
+    }
+    
+    #cookie-popup h3 {
+        font-size: 16px;
+    }
+    
+    #cookie-popup p {
+        font-size: 13px;
+    }
+    
+    #cookie-popup button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #cookie-popup {
+        animation: none !important;
+    }
+    
+    #cookie-accept, #cookie-decline {
+        transition: none !important;
+    }
+}
+</style>
+<script>
+(function() {
+    'use strict';
+    
+    const CONSENT_KEY = 'cookie_consent';
+    const CONSENT_TIMESTAMP_KEY = 'cookie_consent_timestamp';
+    
+    function loadAnalytics() {
+        const consentTimestamp = new Date().toISOString();
+        localStorage.setItem(CONSENT_TIMESTAMP_KEY, consentTimestamp);
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+        
+        const gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+        document.head.appendChild(gaScript);
+        
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'XXXXXXXXXXXXXXXXX');
+        fbq('track', 'PageView');
+    }
+    
+    function removePopup() {
+        const popup = document.getElementById('cookie-popup');
+        if (popup && popup.parentNode) {
+            popup.parentNode.removeChild(popup);
+        }
+    }
+    
+    function initCookieConsent() {
+        const popup = document.getElementById('cookie-popup');
+        if (!popup) return;
+        
+        const existingConsent = localStorage.getItem(CONSENT_KEY);
+        
+        if (existingConsent) {
+            removePopup();
+            
+            if (existingConsent === 'accepted') {
+                loadAnalytics();
+            }
+            return;
+        }
+        
+        popup.style.display = 'block';
+        
+        const acceptButton = document.getElementById('cookie-accept');
+        const declineButton = document.getElementById('cookie-decline');
+        
+        if (acceptButton) {
+            acceptButton.addEventListener('click', function() {
+                localStorage.setItem(CONSENT_KEY, 'accepted');
+                removePopup();
+                loadAnalytics();
+            });
+        }
+        
+        if (declineButton) {
+            declineButton.addEventListener('click', function() {
+                localStorage.setItem(CONSENT_KEY, 'declined');
+                localStorage.setItem(CONSENT_TIMESTAMP_KEY, new Date().toISOString());
+                removePopup();
+            });
+        }
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initCookieConsent);
+    } else {
+        initCookieConsent();
+    }
+})();
+</script>
+<div style="flex: 1;">
+<header>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<title>Digital Pace - Understanding Modern System Flow</title>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="description"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<link href="https://Digital Pace/index.html" rel="canonical"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="Digital Pace - Understanding Modern System Flow" property="og:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." property="og:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace" property="og:image"/>
+<meta content="https://Digital Pace" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Digital Pace - Understanding Modern System Flow" name="twitter:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="twitter:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Digital Pace",
+  "url": "https://Digital Pace",
+  "description": "Digital Pace: Understanding Modern System Flow"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Momentum Insights Group",
+  "url": "https://Digital Pace",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1400 Broadway, Suite 3600",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressCountry": "United State"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(212) 555-1212",
+    "email": "contact@digitalpace.com",
+    "contactType": "customer service"
+  }
+}
+</script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    color: #212529;
+    background: #FFFFFF;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand" href="#">Digital Pace</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</header>
+<div class="row">
+<div class="col-md-6">
+<div class="container py-5">
+<div class="row">
+<div class="col-12">
+<div itemscope="" itemtype="https://schema.org/Organization">
+<h1 class="display-medium mb-4" style="font-size: 36px; font-weight: 400; letter-spacing: -0.01em; color: #212529;">Get in Touch</h1>
+<p class="body-large mb-5" style="font-size: 18px; line-height: 1.6; color: #495057; max-width: 600px;">Have questions about digital system optimization or need assistance? We're here to help you achieve seamless performance and smooth system behavior.</p>
+<div class="contact-info-wrapper">
+<div class="mb-4 pb-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.06);">
+<h2 class="heading-3 mb-3" style="font-size: 20px; font-weight: 600; color: #212529;">
+<i class="fas fa-building me-2" style="color: #4A90E2;"></i>Company
+                        </h2>
+<p class="body-regular mb-0" itemprop="name" style="font-size: 16px; line-height: 1.6; color: #495057;">Momentum Insights Group</p>
+</div>
+<div class="mb-4 pb-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.06);">
+<h2 class="heading-3 mb-3" style="font-size: 20px; font-weight: 600; color: #212529;">
+<i class="fas fa-map-marker-alt me-2" style="color: #4A90E2;"></i>Address
+                        </h2>
+<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<p class="body-regular mb-0" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<span itemprop="streetAddress">1400 Broadway, Suite 3600</span><br/>
+<span itemprop="addressLocality">New York</span>, 
+                                <span itemprop="postalCode">10001</span><br/>
+<span itemprop="addressCountry">United States</span>
+</p>
+</div>
+</div>
+<div class="mb-4 pb-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.06);">
+<h2 class="heading-3 mb-3" style="font-size: 20px; font-weight: 600; color: #212529;">
+<i class="fas fa-phone me-2" style="color: #4A90E2;"></i>Phone
+                        </h2>
+<p class="body-regular mb-0" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<a href="tel:+12125551212" itemprop="telephone" onmouseout="this.style.color='#4A90E2'" onmouseover="this.style.color='#5DADE2'" style="color: #4A90E2; text-decoration: none; transition: color 200ms ease-in-out;">
+                                (212) 555-1212
+                            </a>
+</p>
+</div>
+<div class="mb-4">
+<h2 class="heading-3 mb-3" style="font-size: 20px; font-weight: 600; color: #212529;">
+<i class="fas fa-envelope me-2" style="color: #4A90E2;"></i>Email
+                        </h2>
+<p class="body-regular mb-0" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<a href="mailto:contact@digitalpace.com" itemprop="email" onmouseout="this.style.color='#4A90E2'" onmouseover="this.style.color='#5DADE2'" style="color: #4A90E2; text-decoration: none; transition: color 200ms ease-in-out;">contact@digitalpace.com</a>
+</p>
+</div>
+</div>
+<div class="mt-5 p-4" style="background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%); border-radius: 12px; border: 1px solid rgba(0, 0, 0, 0.06);">
+<h3 class="heading-3 mb-3" style="font-size: 20px; font-weight: 600; color: #212529;">
+<i class="fas fa-clock me-2" style="color: #4A90E2;"></i>Business Hours
+                    </h3>
+<p class="body-regular mb-2" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<strong style="color: #212529;">Monday - Friday:</strong>9:00 AM - 6:00 PM EST</p>
+<p class="body-regular mb-0" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<strong style="color: #212529;">Saturday - Sunday:</strong> Closed
+                    </p>
+</div>
+<div class="mt-4 p-4" style="background: rgba(74, 144, 226, 0.05); border-radius: 12px; border-left: 4px solid #4A90E2;">
+<p class="body-regular mb-0" style="font-size: 16px; line-height: 1.6; color: #495057;">
+<i class="fas fa-info-circle me-2" style="color: #4A90E2;"></i>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call our office directly.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="container py-5">
+<div class="card border-0 shadow-sm" style="border-radius: 12px; background: #FFFFFF;">
+<div class="card-body p-4 p-md-5">
+<h2 class="mb-2" style="font-size: 32px; font-weight: 600; color: #212529; letter-spacing: -0.01em;">Get in Touch</h2>
+<p class="mb-4" style="font-size: 16px; line-height: 1.6; color: #6C757D;">Fill out the form below and we'll get back to you as soon as possible.</p>
+<form id="contactForm" novalidate="">
+<div class="mb-4">
+<label class="form-label" for="fullName" style="font-size: 14px; font-weight: 500; color: #495057; margin-bottom: 8px;">Full Name <span style="color: #F5222D;">*</span></label>
+<input aria-required="true" class="form-control" id="fullName" name="fullName" required="" style="height: 44px; padding: 12px 16px; border: 1px solid #E9ECEF; border-radius: 8px; font-size: 16px; transition: all 200ms ease-in-out;" type="text"/>
+<div class="invalid-feedback" style="font-size: 12px; color: #F5222D; margin-top: 4px;">Please enter your full name.</div>
+</div>
+<div class="mb-4">
+<label class="form-label" for="email" style="font-size: 14px; font-weight: 500; color: #495057; margin-bottom: 8px;">Email Address <span style="color: #F5222D;">*</span></label>
+<input aria-required="true" class="form-control" id="email" name="email" required="" style="height: 44px; padding: 12px 16px; border: 1px solid #E9ECEF; border-radius: 8px; font-size: 16px; transition: all 200ms ease-in-out;" type="email"/>
+<div class="invalid-feedback" style="font-size: 12px; color: #F5222D; margin-top: 4px;">Please enter a valid email address.</div>
+</div>
+<div class="mb-4">
+<label class="form-label" for="phone" style="font-size: 14px; font-weight: 500; color: #495057; margin-bottom: 8px;">Phone Number</label>
+<input class="form-control" id="phone" name="phone" style="height: 44px; padding: 12px 16px; border: 1px solid #E9ECEF; border-radius: 8px; font-size: 16px; transition: all 200ms ease-in-out;" type="tel"/>
+<small style="font-size: 12px; color: #6C757D; margin-top: 4px; display: block;">Optional</small>
+</div>
+<div class="mb-4">
+<label class="form-label" for="subject" style="font-size: 14px; font-weight: 500; color: #495057; margin-bottom: 8px;">Subject <span style="color: #F5222D;">*</span></label>
+<input aria-required="true" class="form-control" id="subject" name="subject" required="" style="height: 44px; padding: 12px 16px; border: 1px solid #E9ECEF; border-radius: 8px; font-size: 16px; transition: all 200ms ease-in-out;" type="text"/>
+<div class="invalid-feedback" style="font-size: 12px; color: #F5222D; margin-top: 4px;">Please enter a subject.</div>
+</div>
+<div class="mb-4">
+<label class="form-label" for="message" style="font-size: 14px; font-weight: 500; color: #495057; margin-bottom: 8px;">Message <span style="color: #F5222D;">*</span></label>
+<textarea aria-required="true" class="form-control" id="message" name="message" required="" rows="6" style="padding: 12px 16px; border: 1px solid #E9ECEF; border-radius: 8px; font-size: 16px; resize: vertical; transition: all 200ms ease-in-out;"></textarea>
+<div class="invalid-feedback" style="font-size: 12px; color: #F5222D; margin-top: 4px;">Please enter your message.</div>
+</div>
+<div class="mb-4">
+<div class="form-check">
+<input aria-required="true" class="form-check-input" id="privacyConsent" name="privacyConsent" required="" style="width: 20px; height: 20px; border: 2px solid #E9ECEF; border-radius: 4px; cursor: pointer;" type="checkbox"/>
+<label class="form-check-label" for="privacyConsent" style="font-size: 14px; color: #495057; margin-left: 8px; cursor: pointer;">I agree to the privacy policy and terms of service<span style="color: #F5222D;">*</span>
+</label>
+<div class="invalid-feedback" style="font-size: 12px; color: #F5222D; margin-top: 4px;">You must agree before submitting.</div>
+</div>
+</div>
+<button class="btn w-100" onmousedown="this.style.background='#3A7BC8'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 6px rgba(0, 0, 0, 0.08)';" onmouseout="this.style.background='#4A90E2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0, 0, 0, 0.06)';" onmouseover="this.style.background='#5DADE2'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 16px rgba(0, 0, 0, 0.08)';" onmouseup="this.style.background='#5DADE2'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 16px rgba(0, 0, 0, 0.08)';" style="background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; font-weight: 500; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);" type="submit">
+                    Send Message
+                </button>
+</form>
+<div class="alert mt-4" id="successMessage" role="alert" style="display: none; background: rgba(82, 196, 26, 0.1); border: 1px solid #52C41A; border-radius: 8px; padding: 16px; color: #212529;">
+<div class="d-flex align-items-start">
+<i class="fas fa-check-circle" style="color: #52C41A; font-size: 20px; margin-right: 12px; margin-top: 2px;"></i>
+<div>
+<h5 style="font-size: 16px; font-weight: 600; color: #212529; margin-bottom: 4px;">Message Sent Successfully!</h5>
+<p style="font-size: 14px; color: #495057; margin-bottom: 0; line-height: 1.5;">Thank you for contacting us. We've received your message and will get back to you within 24-48 hours.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+    .form-control:focus {
+        border: 2px solid #4A90E2;
+        box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+        outline: none;
+    }
+
+    .form-control.is-invalid {
+        border: 2px solid #F5222D;
+        box-shadow: 0 0 0 3px rgba(245, 34, 45, 0.15);
+    }
+
+    .form-control.is-valid {
+        border: 2px solid #52C41A;
+        box-shadow: 0 0 0 3px rgba(82, 196, 26, 0.15);
+    }
+
+    .form-check-input:focus {
+        border-color: #4A90E2;
+        box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+        outline: none;
+    }
+
+    .form-check-input:checked {
+        background-color: #4A90E2;
+        border-color: #4A90E2;
+    }
+
+    .invalid-feedback {
+        display: none;
+    }
+
+    .form-control.is-invalid ~ .invalid-feedback,
+    .form-check-input.is-invalid ~ .invalid-feedback {
+        display: block;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+</style>
+<script>
+    (function() {
+        'use strict';
+
+        const form = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+                
+                const firstInvalid = form.querySelector(':invalid');
+                if (firstInvalid) {
+                    firstInvalid.focus();
+                    firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                const formData = {
+                    fullName: document.getElementById('fullName').value,
+                    email: document.getElementById('email').value,
+                    phone: document.getElementById('phone').value,
+                    subject: document.getElementById('subject').value,
+                    message: document.getElementById('message').value,
+                    privacyConsent: document.getElementById('privacyConsent').checked
+                };
+
+                console.log('Form submitted:', formData);
+
+                form.style.display = 'none';
+                successMessage.style.display = 'block';
+
+                successMessage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+                setTimeout(function() {
+                    form.reset();
+                    form.classList.remove('was-validated');
+                }, 3000);
+            }
+        });
+
+        const inputs = form.querySelectorAll('input, textarea');
+        inputs.forEach(function(input) {
+            input.addEventListener('blur', function() {
+                if (form.classList.contains('was-validated')) {
+                    if (input.checkValidity()) {
+                        input.classList.remove('is-invalid');
+                        input.classList.add('is-valid');
+                    } else {
+                        input.classList.remove('is-valid');
+                        input.classList.add('is-invalid');
+                    }
+                }
+            });
+
+            input.addEventListener('input', function() {
+                if (form.classList.contains('was-validated')) {
+                    if (input.checkValidity()) {
+                        input.classList.remove('is-invalid');
+                        input.classList.add('is-valid');
+                    } else {
+                        input.classList.remove('is-valid');
+                        input.classList.add('is-invalid');
+                    }
+                }
+            });
+        });
+
+        const emailInput = document.getElementById('email');
+        emailInput.addEventListener('blur', function() {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailInput.value && !emailPattern.test(emailInput.value)) {
+                emailInput.setCustomValidity('Please enter a valid email address.');
+            } else {
+                emailInput.setCustomValidity('');
+            }
+        });
+    })();
+</script>
+</div>
+</div>
+</div>
+<footer style="width: 100%; z-index: 1000;">
+<div style="background: linear-gradient(180deg, #F8F9FA 0%, #FFFFFF 100%); border-top: 1px solid rgba(0, 0, 0, 0.06); padding: 48px 0 24px 0;">
+<div class="container" style="max-width: 1200px;">
+<div class="row g-4">
+<div class="col-lg-4 col-md-6">
+<h3 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 20px; font-weight: 600; color: #212529; margin-bottom: 24px; letter-spacing: 0;">Digital Pace</h3>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 24px; letter-spacing: 0.01em;">Understanding Modern System Flow - Your guide to seamless digital experiences and optimized performance.</p>
+<div style="display: flex; gap: 12px; margin-bottom: 24px;">
+<a href="https://facebook.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://twitter.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://linkedin.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a href="https://github.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-md-6 col-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Navigation</h4>
+<ul style="list-style: none; padding: 0; margin: 0;">
+<li style="margin-bottom: 12px;">
+<a href="/" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Home</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="posts.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Posts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="about.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">About</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="contacts.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Contacts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="privacy_policy.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Privacy Policy</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6 col-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Contact Info</h4>
+<div itemscope="" itemtype="https://schema.org/Organization">
+<meta content="Momentum Insights Group" itemprop="name"/>
+<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-map-marker-alt" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<span itemprop="streetAddress">1400 Broadway, Suite 3600</span><br/>
+<span style="margin-left: 24px;"><span itemprop="addressLocality">New York</span>, <span itemprop="postalCode">10001</span></span><br/>
+<span itemprop="addressCountry" style="margin-left: 24px;">United States</span>
+</p>
+</div>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-phone" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<a href="tel:+12125551212" itemprop="telephone" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">(212) 555-1212</a>
+</p>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-envelope" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<a href="mailto:contact@digitalpace.com" itemprop="email" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">contact@digitalpace.com</a>
+</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Newsletter</h4>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 16px; letter-spacing: 0.01em;">Stay updated with our latest insights and tips.</p>
+<form id="newsletter-form" style="position: relative;">
+<div style="position: relative;">
+<input id="newsletter-email" onblur="this.style.border='1px solid #E9ECEF'; this.style.boxShadow='none';" onfocus="this.style.border='2px solid #4A90E2'; this.style.boxShadow='0 0 0 3px rgba(74, 144, 226, 0.15)';" placeholder="Enter your email" required="" style="width: 100%; height: 44px; padding: 12px 16px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #212529; background: #FFFFFF; border: 1px solid #E9ECEF; border-radius: 8px; transition: all 200ms ease-in-out; outline: none;" type="email"/>
+<div id="email-error" style="display: none; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: #F5222D; margin-top: 4px; letter-spacing: 0.02em;">
+<i class="fas fa-exclamation-circle" style="margin-right: 4px;"></i>
+<span id="error-message">Please enter a valid email address</span>
+</div>
+</div>
+<button id="newsletter-submit" onmousedown="if(!this.disabled) { this.style.transform='translateY(0) scale(0.98)'; }" onmouseout="if(!this.disabled) { this.style.background='#4A90E2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px rgba(0, 0, 0, 0.04)'; }" onmouseover="if(!this.disabled) { this.style.background='#5DADE2'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; }" onmouseup="if(!this.disabled) { this.style.transform='translateY(-1px) scale(1)'; }" style="width: 100%; height: 44px; margin-top: 12px; padding: 12px 24px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 500; color: #FFFFFF; background: #4A90E2; border: none; border-radius: 8px; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);" type="submit">
+                        Subscribe
+                    </button>
+<div id="success-message" style="display: none; margin-top: 16px; padding: 16px; background: linear-gradient(135deg, rgba(82, 196, 26, 0.1) 0%, rgba(82, 196, 26, 0.05) 100%); border: 2px solid #52C41A; border-radius: 8px; opacity: 0; transform: translateY(-10px); transition: all 400ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: #52C41A; border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: successPulse 0.6s ease-out;">
+<i class="fas fa-check" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<div>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin: 0 0 4px 0;">Successfully Subscribed!</p>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">Thank you for joining our newsletter.</p>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div style="margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(0, 0, 0, 0.06);">
+<div class="row align-items-center">
+<div class="col-md-6 text-center text-md-start">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">© 2026 Momentum Insights Group. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">
+                        Designed with <i class="fas fa-heart" style="color: #F5222D; margin: 0 4px;"></i>for optimal digital flow</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+@keyframes successPulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('newsletter-form');
+    const emailInput = document.getElementById('newsletter-email');
+    const submitButton = document.getElementById('newsletter-submit');
+    const errorDiv = document.getElementById('email-error');
+    const errorMessage = document.getElementById('error-message');
+    const successDiv = document.getElementById('success-message');
+    
+    let isSubmitting = false;
+    let hasSubmitted = false;
+
+    function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+
+    function showError(message) {
+        errorMessage.textContent = message;
+        errorDiv.style.display = 'block';
+        emailInput.style.border = '2px solid #F5222D';
+        emailInput.style.boxShadow = '0 0 0 3px rgba(245, 34, 45, 0.15)';
+        
+        setTimeout(() => {
+            emailInput.style.border = '1px solid #E9ECEF';
+            emailInput.style.boxShadow = 'none';
+        }, 3000);
+    }
+
+    function hideError() {
+        errorDiv.style.display = 'none';
+        emailInput.style.border = '1px solid #E9ECEF';
+        emailInput.style.boxShadow = 'none';
+    }
+
+    function showSuccess() {
+        form.style.display = 'none';
+        successDiv.style.display = 'block';
+        
+        setTimeout(() => {
+            successDiv.style.opacity = '1';
+            successDiv.style.transform = 'translateY(0)';
+        }, 50);
+    }
+
+    emailInput.addEventListener('input', function() {
+        if (errorDiv.style.display === 'block') {
+            hideError();
+        }
+    });
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        if (isSubmitting || hasSubmitted) {
+            if (hasSubmitted) {
+                showError('You have already subscribed to our newsletter');
+            }
+            return;
+        }
+
+        const email = emailInput.value.trim();
+
+        if (!email) {
+            showError('Email address is required');
+            emailInput.focus();
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            showError('Please enter a valid email address');
+            emailInput.focus();
+            return;
+        }
+
+        isSubmitting = true;
+        hasSubmitted = true;
+        
+        submitButton.disabled = true;
+        submitButton.style.background = '#E9ECEF';
+        submitButton.style.color = '#ADB5BD';
+        submitButton.style.cursor = 'not-allowed';
+        submitButton.style.opacity = '0.6';
+        submitButton.textContent = 'Subscribing...';
+
+        setTimeout(() => {
+            hideError();
+            showSuccess();
+            isSubmitting = false;
+        }, 1000);
+    });
+});
+</script>
+</footer>
+</body>
+</html>

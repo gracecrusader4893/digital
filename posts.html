@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<title>Digital Pace - Modern System Flow &amp; Performance</title>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="description"/>
+<link href="https://Digital Pace/index.html" rel="canonical"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="Digital Pace - Modern System Flow &amp; Performance" property="og:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." property="og:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace+Modern+System+Flow" property="og:image"/>
+<meta content="https://Digital Pace" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Digital Pace - Modern System Flow &amp; Performance" name="twitter:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="twitter:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace+Modern+System+Flow" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Digital Pace",
+  "url": "https://Digital Pace",
+  "description": "Digital Pace: Understanding Modern System Flow",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://Digital Pace/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Momentum Insights Group",
+  "url": "https://Digital Pace",
+  "logo": "https://Digital Pace/logo.png",
+  "description": "Digital Pace: Understanding Modern System Flow",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1400 Broadway, Suite 3600",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressCountry": "United States"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(212) 555-1212",
+    "contactType": "customer service",
+    "email": "contact@digitalpace.com"
+  }
+}
+</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<style>
+:root {
+  --color-white: #FFFFFF;
+  --color-soft-gray: #F8F9FA;
+  --color-light-slate: #E9ECEF;
+  --color-medium-gray: #ADB5BD;
+  --color-charcoal: #495057;
+  --color-deep-slate: #212529;
+  --color-cool-blue: #4A90E2;
+  --color-soft-cyan: #5DADE2;
+  --color-pale-blue: #EBF5FB;
+  --color-success-green: #52C41A;
+  --color-muted-amber: #FAAD14;
+  --color-soft-red: #F5222D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-deep-slate);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--color-deep-slate);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: var(--color-cool-blue);
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+
+a:hover {
+  color: var(--color-soft-cyan);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-cool-blue);
+  color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.btn-primary:hover {
+  background: var(--color-soft-cyan);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+  transform: translateY(-1px);
+  color: var(--color-white);
+}
+
+.btn-primary:active {
+  background: #3A7BC8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(0);
+}
+
+.card {
+  background: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+}
+</style>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+<div id="cookie-popup" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%); backdrop-filter: blur(10px); border-top: 1px solid rgba(0, 0, 0, 0.06); box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.08); z-index: 9999; padding: 24px; animation: slideUp 400ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<i class="fas fa-cookie-bite" style="color: #4A90E2; font-size: 24px;"></i>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #212529; letter-spacing: 0;">Cookie Consent</h3>
+</div>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #495057; letter-spacing: 0.01em;">We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and personalize content. Your IP address will be anonymized for privacy protection. By clicking "Accept", you consent to our use of cookies. You can manage your preferences at any time through our<a href="privacy-policy.html" style="color: #4A90E2; text-decoration: none; font-weight: 500; transition: color 200ms ease-in-out;">Privacy Policy</a>.
+            </p>
+<p style="margin: 0; font-size: 12px; color: #6C757D; letter-spacing: 0.02em;">
+<i class="fas fa-shield-alt" style="margin-right: 6px;"></i>GDPR Compliant | Data Protection Enabled</p>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<button id="cookie-accept" style="background: linear-gradient(180deg, #5DADE2 0%, #4A90E2 100%); color: #FFFFFF; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); letter-spacing: 0.01em;">
+<i class="fas fa-check" style="margin-right: 8px;"></i>Accept Cookies
+            </button>
+<button id="cookie-decline" style="background: transparent; color: #4A90E2; border: 2px solid #4A90E2; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); letter-spacing: 0.01em;">
+<i class="fas fa-times" style="margin-right: 8px;"></i>Decline
+            </button>
+</div>
+</div>
+</div>
+<style>
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#cookie-accept:hover {
+    background: linear-gradient(180deg, #6BB8E8 0%, #5DADE2 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+    transform: translateY(-1px);
+}
+
+#cookie-accept:active {
+    background: linear-gradient(180deg, #3A7BC8 0%, #3A7BC8 100%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(0);
+}
+
+#cookie-decline:hover {
+    background: rgba(74, 144, 226, 0.08);
+    border-color: #5DADE2;
+    color: #5DADE2;
+}
+
+#cookie-decline:active {
+    background: rgba(74, 144, 226, 0.15);
+    border-color: #3A7BC8;
+    color: #3A7BC8;
+}
+
+@media (max-width: 768px) {
+    #cookie-popup {
+        padding: 16px;
+    }
+    
+    #cookie-popup > div {
+        gap: 12px;
+    }
+    
+    #cookie-popup h3 {
+        font-size: 16px;
+    }
+    
+    #cookie-popup p {
+        font-size: 13px;
+    }
+    
+    #cookie-popup button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #cookie-popup {
+        animation: none !important;
+    }
+    
+    #cookie-accept, #cookie-decline {
+        transition: none !important;
+    }
+}
+</style>
+<script>
+(function() {
+    'use strict';
+    
+    const CONSENT_KEY = 'cookie_consent';
+    const CONSENT_TIMESTAMP_KEY = 'cookie_consent_timestamp';
+    
+    function loadAnalytics() {
+        const consentTimestamp = new Date().toISOString();
+        localStorage.setItem(CONSENT_TIMESTAMP_KEY, consentTimestamp);
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+        
+        const gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+        document.head.appendChild(gaScript);
+        
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'XXXXXXXXXXXXXXXXX');
+        fbq('track', 'PageView');
+    }
+    
+    function removePopup() {
+        const popup = document.getElementById('cookie-popup');
+        if (popup && popup.parentNode) {
+            popup.parentNode.removeChild(popup);
+        }
+    }
+    
+    function initCookieConsent() {
+        const popup = document.getElementById('cookie-popup');
+        if (!popup) return;
+        
+        const existingConsent = localStorage.getItem(CONSENT_KEY);
+        
+        if (existingConsent) {
+            removePopup();
+            
+            if (existingConsent === 'accepted') {
+                loadAnalytics();
+            }
+            return;
+        }
+        
+        popup.style.display = 'block';
+        
+        const acceptButton = document.getElementById('cookie-accept');
+        const declineButton = document.getElementById('cookie-decline');
+        
+        if (acceptButton) {
+            acceptButton.addEventListener('click', function() {
+                localStorage.setItem(CONSENT_KEY, 'accepted');
+                removePopup();
+                loadAnalytics();
+            });
+        }
+        
+        if (declineButton) {
+            declineButton.addEventListener('click', function() {
+                localStorage.setItem(CONSENT_KEY, 'declined');
+                localStorage.setItem(CONSENT_TIMESTAMP_KEY, new Date().toISOString());
+                removePopup();
+            });
+        }
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initCookieConsent);
+    } else {
+        initCookieConsent();
+    }
+})();
+</script>
+<div style="flex: 1;">
+<header>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<title>Digital Pace - Understanding Modern System Flow</title>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="description"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<link href="https://Digital Pace/index.html" rel="canonical"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="Digital Pace - Understanding Modern System Flow" property="og:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." property="og:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace" property="og:image"/>
+<meta content="https://Digital Pace" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Digital Pace - Understanding Modern System Flow" name="twitter:title"/>
+<meta content="Digital Pace helps you understand modern system flow with responsive interface design, seamless interaction, and lightweight performance for adaptive digital environments." name="twitter:description"/>
+<meta content="https://placehold.co/1200x630/4A90E2/FFFFFF?text=Digital+Pace" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Digital Pace",
+  "url": "https://Digital Pace",
+  "description": "Digital Pace: Understanding Modern System Flow"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Momentum Insights Group",
+  "url": "https://Digital Pace",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1400 Broadway, Suite 3600",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressCountry": "United State"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(212) 555-1212",
+    "email": "contact@digitalpace.com",
+    "contactType": "customer service"
+  }
+}
+</script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    color: #212529;
+    background: #FFFFFF;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand" href="#">Digital Pace</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</header>
+<div style="margin-bottom: 50px;">
+<div class="container" style="margin-top: 48px; margin-bottom: 48px;">
+<div class="row justify-content-center">
+<div class="col-12 col-lg-10 col-xl-8">
+<div style="text-align: center; margin-bottom: 32px;">
+<h1 style="font-size: 48px; font-weight: 300; letter-spacing: -0.02em; line-height: 1.2; color: #212529; margin-bottom: 24px;">Digital System Flow Insights &amp; Modern Technology Articles</h1>
+<p style="font-size: 18px; line-height: 1.6; color: #6C757D; max-width: 800px; margin: 0 auto;">Explore our comprehensive collection of articles on digital system flow, responsive interface design, performance optimization, and modern digital experiences. Stay informed about the latest trends in minimalist technology aesthetics, seamless interaction patterns, and adaptive digital environments.</p>
+</div>
+<div style="background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%); border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); margin-bottom: 32px;">
+<div class="row align-items-center">
+<div class="col-md-8">
+<h2 style="font-size: 20px; font-weight: 600; line-height: 1.4; color: #212529; margin-bottom: 12px;">Latest Updates on Digital Performance &amp; System Optimization</h2>
+<p style="font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 0;">Discover expert insights on improving system performance, fixing slow boot issues on Mac, optimizing digital workflows, and creating lightweight, responsive interfaces that deliver exceptional user experiences.</p>
+</div>
+<div class="col-md-4 text-md-end mt-3 mt-md-0">
+<span style="display: inline-block; background: rgba(74, 144, 226, 0.1); color: #4A90E2; padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500;">
+<i class="fas fa-newspaper" style="margin-right: 8px;"></i>Blog Archive
+                        </span>
+</div>
+</div>
+</div>
+<div style="border-left: 3px solid #4A90E2; padding-left: 24px; margin-bottom: 48px; background: rgba(74, 144, 226, 0.03); padding: 20px 24px; border-radius: 0 8px 8px 0;">
+<p style="font-size: 16px; line-height: 1.6; color: #495057; margin-bottom: 12px;">
+<strong style="color: #212529;">Topics covered:</strong>Digital system flow optimization, modern interface design principles, performance enhancement techniques, Mac system troubleshooting, responsive design patterns, minimalist technology approaches, seamless user interactions, and adaptive digital solutions.</p>
+<p style="font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 0;">Whether you're looking to understand how to fix slow boot Mac issues, improve your digital workspace efficiency, or learn about cutting-edge responsive interface design, our articles provide actionable insights and expert guidance.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container" style="max-width: 1200px; margin: 0 auto; padding: 48px 24px;">
+<div class="row g-4">
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 0; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<img alt="Abstract visualization of data flowing through interconnected pipeline nodes with blue and white gradient streams representing data transformation processes in modern software systems" class="card-img-top" src="images/image_0_posts.png" style="width: 100%; height: 240px; object-fit: cover;"/>
+<div class="card-body" style="padding: 24px;">
+<p style="font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #6C757D; margin-bottom: 12px;">January 15, 2026</p>
+<h3 style="font-size: 20px; line-height: 1.4; font-weight: 600; letter-spacing: 0; color: #212529; margin-bottom: 16px;">Understanding Data Pipeline Architecture</h3>
+<p style="font-size: 16px; line-height: 1.6; font-weight: 400; letter-spacing: 0; color: #495057; margin-bottom: 24px;">An in-depth exploration of how data flows through contemporary software systems, examining the key components of pipeline architecture including ingestion layers, transformation processes, and storage solutions.</p>
+<a class="btn" href="posts_1.html" style="display: inline-block; background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-weight: 500; font-size: 16px; text-decoration: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); transition: all 200ms ease-in-out;">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 0; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<img alt="Modern API architecture diagram showing the evolution from REST endpoints to GraphQL with interconnected nodes and event-driven patterns illustrated in soft blue tones" class="card-img-top" src="images/image_1_posts.png" style="width: 100%; height: 240px; object-fit: cover;"/>
+<div class="card-body" style="padding: 24px;">
+<p style="font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #6C757D; margin-bottom: 12px;">February 28, 2026</p>
+<h3 style="font-size: 20px; line-height: 1.4; font-weight: 600; letter-spacing: 0; color: #212529; margin-bottom: 16px;">The Evolution of API Design Patterns</h3>
+<p style="font-size: 16px; line-height: 1.6; font-weight: 400; letter-spacing: 0; color: #495057; margin-bottom: 24px;">A comprehensive look at how API design has transformed from simple REST endpoints to sophisticated GraphQL implementations and event-driven architectures with practical examples.</p>
+<a class="btn" href="posts_2.html" style="display: inline-block; background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-weight: 500; font-size: 16px; text-decoration: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); transition: all 200ms ease-in-out;">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 0; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<img alt="Visual representation of database query optimization with performance graphs showing improved response times and efficient indexing strategies in a clean minimalist design" class="card-img-top" src="images/image_2_posts.png" style="width: 100%; height: 240px; object-fit: cover;"/>
+<div class="card-body" style="padding: 24px;">
+<p style="font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #6C757D; margin-bottom: 12px;">March 12, 2026</p>
+<h3 style="font-size: 20px; line-height: 1.4; font-weight: 600; letter-spacing: 0; color: #212529; margin-bottom: 16px;">Database Query Optimization Techniques</h3>
+<p style="font-size: 16px; line-height: 1.6; font-weight: 400; letter-spacing: 0; color: #495057; margin-bottom: 24px;">Discover proven techniques for improving database query efficiency in systems handling millions of requests daily, including indexing strategies and caching layers.</p>
+<a class="btn" href="posts_3.html" style="display: inline-block; background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-weight: 500; font-size: 16px; text-decoration: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); transition: all 200ms ease-in-out;">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 0; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<img alt="Diagram of microservices architecture showing interconnected services with message queues and service mesh patterns in a modern distributed system layout" class="card-img-top" src="images/image_3_posts.png" style="width: 100%; height: 240px; object-fit: cover;"/>
+<div class="card-body" style="padding: 24px;">
+<p style="font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #6C757D; margin-bottom: 12px;">April 8, 2026</p>
+<h3 style="font-size: 20px; line-height: 1.4; font-weight: 600; letter-spacing: 0; color: #212529; margin-bottom: 16px;">Microservices Communication Strategies</h3>
+<p style="font-size: 16px; line-height: 1.6; font-weight: 400; letter-spacing: 0; color: #495057; margin-bottom: 24px;">An extensive guide to managing communication between microservices in distributed systems, exploring synchronous versus asynchronous messaging patterns and service discovery.</p>
+<a class="btn" href="posts_4.html" style="display: inline-block; background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-weight: 500; font-size: 16px; text-decoration: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); transition: all 200ms ease-in-out;">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px; padding: 0; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<img alt="Dashboard interface showing metrics, logs, and traces visualization with graphs and charts representing comprehensive system observability in a clean digital environment" class="card-img-top" src="images/image_4_posts.png" style="width: 100%; height: 240px; object-fit: cover;"/>
+<div class="card-body" style="padding: 24px;">
+<p style="font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #6C757D; margin-bottom: 12px;">May 5, 2026</p>
+<h3 style="font-size: 20px; line-height: 1.4; font-weight: 600; letter-spacing: 0; color: #212529; margin-bottom: 16px;">Implementing System Monitoring and Observability</h3>
+<p style="font-size: 16px; line-height: 1.6; font-weight: 400; letter-spacing: 0; color: #495057; margin-bottom: 24px;">A practical approach to implementing comprehensive monitoring and observability in modern applications, discussing the three pillars of observability and effective alerting systems.</p>
+<a class="btn" href="posts_5.html" style="display: inline-block; background: #4A90E2; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-weight: 500; font-size: 16px; text-decoration: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); transition: all 200ms ease-in-out;">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10) !important;
+}
+
+.btn:hover {
+    background: #5DADE2 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    background: #3A7BC8 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(0);
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 32px 16px !important;
+    }
+    
+    .card-body {
+        padding: 16px !important;
+    }
+    
+    .card-img-top {
+        height: 200px !important;
+    }
+    
+    h3 {
+        font-size: 18px !important;
+    }
+    
+    p {
+        font-size: 14px !important;
+    }
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transition = 'all 300ms cubic-bezier(0.4, 0.0, 0.2, 1)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transition = 'all 300ms cubic-bezier(0.4, 0.0, 0.2, 1)';
+        });
+    });
+
+    const buttons = document.querySelectorAll('.btn');
+    
+    buttons.forEach(button => {
+        button.addEventListener('mouseenter', function() {
+            this.style.transition = 'all 200ms ease-in-out';
+        });
+        
+        button.addEventListener('mouseleave', function() {
+            this.style.transition = 'all 200ms ease-in-out';
+        });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '0';
+                entry.target.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    entry.target.style.transition = 'opacity 400ms ease-out, transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1)';
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, 100);
+                
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    cards.forEach((card, index) => {
+        setTimeout(() => {
+            observer.observe(card);
+        }, index * 100);
+    });
+});
+</script>
+</div>
+<footer style="width: 100%; z-index: 1000;">
+<div style="background: linear-gradient(180deg, #F8F9FA 0%, #FFFFFF 100%); border-top: 1px solid rgba(0, 0, 0, 0.06); padding: 48px 0 24px 0;">
+<div class="container" style="max-width: 1200px;">
+<div class="row g-4">
+<div class="col-lg-4 col-md-6">
+<h3 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 20px; font-weight: 600; color: #212529; margin-bottom: 24px; letter-spacing: 0;">Digital Pace</h3>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 24px; letter-spacing: 0.01em;">Understanding Modern System Flow - Your guide to seamless digital experiences and optimized performance.</p>
+<div style="display: flex; gap: 12px; margin-bottom: 24px;">
+<a href="https://facebook.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://twitter.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://linkedin.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a href="https://github.com" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.background='#FFFFFF'; this.style.color='#4A90E2';" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; this.style.background='#4A90E2'; this.style.color='#FFFFFF';" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4A90E2; text-decoration: none; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-md-6 col-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Navigation</h4>
+<ul style="list-style: none; padding: 0; margin: 0;">
+<li style="margin-bottom: 12px;">
+<a href="/" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Home</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="posts.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Posts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="about.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">About</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="contacts.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Contacts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="privacy_policy.html" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">Privacy Policy</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6 col-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Contact Info</h4>
+<div itemscope="" itemtype="https://schema.org/Organization">
+<meta content="Momentum Insights Group" itemprop="name"/>
+<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-map-marker-alt" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<span itemprop="streetAddress">1400 Broadway, Suite 3600</span><br/>
+<span style="margin-left: 24px;"><span itemprop="addressLocality">New York</span>, <span itemprop="postalCode">10001</span></span><br/>
+<span itemprop="addressCountry" style="margin-left: 24px;">United States</span>
+</p>
+</div>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-phone" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<a href="tel:+12125551212" itemprop="telephone" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">(212) 555-1212</a>
+</p>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 12px; letter-spacing: 0.01em;">
+<i class="fas fa-envelope" style="color: #4A90E2; margin-right: 8px; width: 16px;"></i>
+<a href="mailto:contact@digitalpace.com" itemprop="email" onmouseout="this.style.color='#6C757D';" onmouseover="this.style.color='#4A90E2';" style="color: #6C757D; text-decoration: none; transition: color 200ms ease-in-out;">contact@digitalpace.com</a>
+</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<h4 style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 16px; letter-spacing: 0.01em; text-transform: uppercase;">Newsletter</h4>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; color: #6C757D; margin-bottom: 16px; letter-spacing: 0.01em;">Stay updated with our latest insights and tips.</p>
+<form id="newsletter-form" style="position: relative;">
+<div style="position: relative;">
+<input id="newsletter-email" onblur="this.style.border='1px solid #E9ECEF'; this.style.boxShadow='none';" onfocus="this.style.border='2px solid #4A90E2'; this.style.boxShadow='0 0 0 3px rgba(74, 144, 226, 0.15)';" placeholder="Enter your email" required="" style="width: 100%; height: 44px; padding: 12px 16px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #212529; background: #FFFFFF; border: 1px solid #E9ECEF; border-radius: 8px; transition: all 200ms ease-in-out; outline: none;" type="email"/>
+<div id="email-error" style="display: none; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: #F5222D; margin-top: 4px; letter-spacing: 0.02em;">
+<i class="fas fa-exclamation-circle" style="margin-right: 4px;"></i>
+<span id="error-message">Please enter a valid email address</span>
+</div>
+</div>
+<button id="newsletter-submit" onmousedown="if(!this.disabled) { this.style.transform='translateY(0) scale(0.98)'; }" onmouseout="if(!this.disabled) { this.style.background='#4A90E2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px rgba(0, 0, 0, 0.04)'; }" onmouseover="if(!this.disabled) { this.style.background='#5DADE2'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.10)'; }" onmouseup="if(!this.disabled) { this.style.transform='translateY(-1px) scale(1)'; }" style="width: 100%; height: 44px; margin-top: 12px; padding: 12px 24px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 500; color: #FFFFFF; background: #4A90E2; border: none; border-radius: 8px; cursor: pointer; transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);" type="submit">
+                        Subscribe
+                    </button>
+<div id="success-message" style="display: none; margin-top: 16px; padding: 16px; background: linear-gradient(135deg, rgba(82, 196, 26, 0.1) 0%, rgba(82, 196, 26, 0.05) 100%); border: 2px solid #52C41A; border-radius: 8px; opacity: 0; transform: translateY(-10px); transition: all 400ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: #52C41A; border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: successPulse 0.6s ease-out;">
+<i class="fas fa-check" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<div>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #212529; margin: 0 0 4px 0;">Successfully Subscribed!</p>
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">Thank you for joining our newsletter.</p>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div style="margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(0, 0, 0, 0.06);">
+<div class="row align-items-center">
+<div class="col-md-6 text-center text-md-start">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">© 2026 Momentum Insights Group. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+<p style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; font-size: 14px; color: #6C757D; margin: 0; letter-spacing: 0.01em;">
+                        Designed with <i class="fas fa-heart" style="color: #F5222D; margin: 0 4px;"></i>for optimal digital flow</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+@keyframes successPulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('newsletter-form');
+    const emailInput = document.getElementById('newsletter-email');
+    const submitButton = document.getElementById('newsletter-submit');
+    const errorDiv = document.getElementById('email-error');
+    const errorMessage = document.getElementById('error-message');
+    const successDiv = document.getElementById('success-message');
+    
+    let isSubmitting = false;
+    let hasSubmitted = false;
+
+    function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+
+    function showError(message) {
+        errorMessage.textContent = message;
+        errorDiv.style.display = 'block';
+        emailInput.style.border = '2px solid #F5222D';
+        emailInput.style.boxShadow = '0 0 0 3px rgba(245, 34, 45, 0.15)';
+        
+        setTimeout(() => {
+            emailInput.style.border = '1px solid #E9ECEF';
+            emailInput.style.boxShadow = 'none';
+        }, 3000);
+    }
+
+    function hideError() {
+        errorDiv.style.display = 'none';
+        emailInput.style.border = '1px solid #E9ECEF';
+        emailInput.style.boxShadow = 'none';
+    }
+
+    function showSuccess() {
+        form.style.display = 'none';
+        successDiv.style.display = 'block';
+        
+        setTimeout(() => {
+            successDiv.style.opacity = '1';
+            successDiv.style.transform = 'translateY(0)';
+        }, 50);
+    }
+
+    emailInput.addEventListener('input', function() {
+        if (errorDiv.style.display === 'block') {
+            hideError();
+        }
+    });
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        if (isSubmitting || hasSubmitted) {
+            if (hasSubmitted) {
+                showError('You have already subscribed to our newsletter');
+            }
+            return;
+        }
+
+        const email = emailInput.value.trim();
+
+        if (!email) {
+            showError('Email address is required');
+            emailInput.focus();
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            showError('Please enter a valid email address');
+            emailInput.focus();
+            return;
+        }
+
+        isSubmitting = true;
+        hasSubmitted = true;
+        
+        submitButton.disabled = true;
+        submitButton.style.background = '#E9ECEF';
+        submitButton.style.color = '#ADB5BD';
+        submitButton.style.cursor = 'not-allowed';
+        submitButton.style.opacity = '0.6';
+        submitButton.textContent = 'Subscribing...';
+
+        setTimeout(() => {
+            hideError();
+            showSuccess();
+            isSubmitting = false;
+        }, 1000);
+    });
+});
+</script>
+</footer>
+</body>
+</html>
